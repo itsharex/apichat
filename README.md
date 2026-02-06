@@ -7,13 +7,11 @@
   <img alt="ApiChat 应用截图" src="./img/light.png">
 </picture>
 
-## ✨ 特性
-
 - 🚀 基于 Tauri 2.0 构建，性能优异
 - 🎨 支持深色/浅色主题切换
 - 📱 跨平台支持 (macOS, Windows, Linux)
 
-## 📦 安装
+## 安装
 
 ### 从 Release 下载
 
@@ -49,47 +47,22 @@
    ```
 3. 双击运行或通过终端启动
 
-## 🚀 开发
-
-### 环境要求
-
-- Node.js 22+
-- Rust 1.70+
-- pnpm
-
-### 本地开发
+### 从源码构建
 
 ```bash
-# 克隆项目
 git clone https://github.com/tlyboy/apichat.git
-cd apichat
-
-# 安装依赖
-pnpm install
-
-# 启动开发服务器
-pnpm tauri dev
 ```
 
-### 构建
+## 使用说明
+
+需要安装 [Rust](https://www.rust-lang.org/)。
 
 ```bash
-# 构建应用
+pnpm install
+pnpm tauri dev
 pnpm tauri build
 ```
 
-## 📝 许可证
+## 使用许可
 
-本项目采用 [MIT 许可证](LICENSE)。
-
-## 🤝 贡献
-
-欢迎提交 Issue 和 Pull Request！
-
-## 📞 支持
-
-如果遇到问题，请：
-
-1. 查看 [Issues](https://github.com/tlyboy/apichat/issues)
-2. 创建新的 Issue 描述问题
-3. 提供详细的错误信息和系统环境
+[MIT](https://opensource.org/licenses/MIT) © Guany
